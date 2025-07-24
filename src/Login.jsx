@@ -121,7 +121,11 @@ export default function Login() {
         </div>
 
         {/*right is avatar */}
+<<<<<<< HEAD
         <div className="loginavatar">
+=======
+        <div className="login-avatar">
+>>>>>>> 8113565d3d9a4b9a6369be0cf66b3c60029f064d
           <img src={panda} alt="KoalaAvatar" />
         </div>
       </div>
