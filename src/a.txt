@@ -1,0 +1,126 @@
+
+            {/* Main Content */}
+            {/* <div className="main">
+                <div className="WelcomeKoala">
+                    <span className="login-avatar">
+                        <img src={panda} alt="KoalaAvatar" />
+                    </span>
+                    <span className="welcome">Welcome back, {username}!🌿</span>
+                </div>
+
+            </div> */}
+
+
+
+            Home.jsx
+            
+// import React from 'react';
+// import { Link } from 'react-router-dom';
+// import { useLocation } from 'react-router-dom';
+// import panda from "./assets/panda.png";
+// import './Home.css';
+
+
+
+// function Home() {
+//     const location = useLocation();
+//     const username = location.state?.username || 'User';
+//     return (
+//         <div className="container">
+//             {/* Sidebar */}
+//             <div className="sidebar">
+//                 <ul>
+//                     <li><Link to="/profile">Profile</Link></li>
+//                     <li><Link to="/mood-calendar">Mood Calendar📅</Link></li>
+//                     <li><Link to="/level">Level</Link></li>
+//                     <li><Link to="/progress">Progress</Link></li>
+//                     <li><Link to="/avatar">Avatar Upgrade🐨</Link></li>
+//                     <li><Link to="/about">About Us🍀</Link></li>
+//                     <li><Link to="/logout">Log Out ➡️</Link></li> 
+//                 </ul>
+
+//             </div>
+
+// <div className="top-header">
+//   <span className="login-avatar">
+//     <img src={panda} alt="KoalaAvatar" />
+//   </span>
+//   <span className="welcome">Welcome back, {username}!🌿</span>
+// </div>
+//             <div className="grid">
+//                 <div className="box mood">
+//                     <h2>How was your mood today?</h2>
+//                     <center>
+//                         <div className="emojis" >
+
+//                             <button> <span>😞</span></button>
+//                             <div>Dissapointed </div>
+//                             <button><span>😐</span></button>
+//                             <div>Unimpressed</div>
+//                             <button><span>🙂</span></button>
+//                             <div>Okok</div>
+//                             <button><span>😊</span></button>
+//                             <div>Good</div>
+//                             <button><span>😁</span></button>
+//                             <div>wonderful</div>
+//                         </div>
+//                     </center>
+//                 </div>
+
+//                 <div className="box journal">
+//                     <h2>Wanna write a journal?</h2>
+//                     <textarea placeholder="Write here..."></textarea>
+//                 </div>
+
+//                 <div className="box daily-log">
+//                     <h2>Daily Log</h2>
+//                     <textarea placeholder="Write here..."></textarea>
+//                 </div>
+
+//                 <div className="box challenges">
+//                     <p>Complete goals and track progress!</p>
+//                     <br />
+//                     <button>
+
+//                         <h3>Weekly Challenges</h3></button>
+
+
+//                 </div>
+
+//                 <div className="box communication">
+//                     <h3>Number of people you communicated today</h3>
+//                     <input type="number" placeholder="Input number" />
+//                 </div>
+
+//                 <div className="box communication">
+//                     <h3>How many hours of sleep did you get?</h3>
+//                     <input type="number" placeholder="Input number" />
+//                 </div>
+//                 <div className="box meditate">
+//                     <h3> Wanna Meditate for 7 mins?</h3>
+//                     <button>
+//                         <b>
+//                             Meditate
+//                         </b>
+//                     </button>
+//                 </div>
+
+//                 <div className="box read">
+//                     <h3>Wanna Read?</h3>
+
+//                     <button>
+//                         <b>
+//                             Read
+//                         </b>
+//                     </button>
+
+//                 </div>
+
+
+//             </div>
+//         </div>
+        
+//     );
+// };
+
+// export default Home;
